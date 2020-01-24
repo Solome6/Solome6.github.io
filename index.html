@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dustin's Website</title>
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openTab(event, 'About me')">About me</button>
+</div>
+
+<!-- Tab content -->
+<div id="Home" class="tabcontent">
+    <h1>This is the home page.</h1>
+</div>
+
+<div id="Projects" class="tabcontent">
+    <h3>Projects tab.</h3>
+</div>
+
+<div id="About me" class="tabcontent">
+    <h3>About me tab.</h3>
+</div>
+
+<script>
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
